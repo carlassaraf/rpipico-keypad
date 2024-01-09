@@ -12,3 +12,4 @@ Los ejemplos que hay en el repositorio son:
 | Ejemplo | Descripcion |
 | --- | --- |
 | [basic](examples/basic/) | Ejemplo basico lee constantemente el keypad |
+| [irq](examples/irq/) | Ejemplo basico con interrupcion |
