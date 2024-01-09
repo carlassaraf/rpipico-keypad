@@ -46,6 +46,8 @@ void keypad_init(uint8_t columns[4], uint8_t rows[4], char matrix_values[16]) {
         // Armo una mascara para todas las filas
         _all_rows_mask |= (1 << row);
     }
+	// Dejo todas las filas en uno
+    gpio_put_masked(_all_rows_mask, _all_rows_mask);
 }
 
 /**
